@@ -38,29 +38,10 @@ Course project for *Business Reports in SQL*, University of Gdańsk, 2024.
 | `government_expenditure` | Government expenditure by country and year | 2014–2023 |
 | `consumption` | Consumption by country and year | 2012–2023 |
 
-- **Coverage:** 30 countries (EU member states plus Iceland, Norway and Switzerland), identified by ISO code.
-- **Source:** [UZUPEŁNIJ: source of the data, e.g. dataset provided in the course, plus link if you have one]
-- **Units:** [UZUPEŁNIJ: unit of the `amount` columns, e.g. million EUR]
+- **Coverage:** 30 countries (EU member states plus Iceland, Norway and Switzerland).
+- **Source:** Eurostat
 
 **Data gaps:** `government_expenditure` has no value for Denmark in 2020 and none for Switzerland in 2023. Ratios involving these records are missing for those years.
-
-## How to run
-
-1. Use Microsoft SQL Server (or Azure SQL) and SQL Server Management Studio.
-2. Create a database and run the scripts in this order:
-   1. `sql/01_create_tables.sql`: creates and fills the tables [UZUPEŁNIJ: add the scripts for `country`, `gdp` and `public_debt`]
-   2. `sql/02_views.sql`: creates the views
-   3. `sql/03_queries.sql`: selects from each view
-
-## Selected results
-
-[UZUPEŁNIJ: after running the queries, write 2–3 findings from your own output, for example which countries had debt above GDP in 2017, which country had the largest GDP change between 2012 and 2023, or which country led in consumption share. Use only values you saw in the results.]
-
-## Limitations
-
-- Percentages are produced with `FORMAT(..., 'p')`, which returns text. [UZUPEŁNIJ: remove this line after fixing the sorting, see below.]
-- Missing years in some tables (see Data gaps) are not imputed.
-- The analysis is descriptive. It compares ratios and changes but does not test relationships between variables.
 
 ## Possible extensions
 
