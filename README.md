@@ -34,7 +34,7 @@ Course project for *Business Reports in SQL*, University of Gdańsk, 2024.
 |---|---|---|
 | `country` | Country names and ISO codes | n/a |
 | `gdp` | GDP by country and year | 2012–2023 |
-| `public_debt` | Public debt by country and year | [UZUPEŁNIJ] |
+| `public_debt` | Public debt by country and year | 2012-2023 |
 | `government_expenditure` | Government expenditure by country and year | 2014–2023 |
 | `consumption` | Consumption by country and year | 2012–2023 |
 
